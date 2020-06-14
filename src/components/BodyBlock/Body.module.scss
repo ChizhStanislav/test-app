@@ -1,9 +1,10 @@
-.cover{
-    width: 1200px;
-    top: 90px;
-    position: relative;
-    align-content: center;
-    text-align: center;
-    padding-top: 10px;
-    margin: 0 auto;
+.cover {
+
+  grid-area: b;
+
+  //background-color: white;
+  width: 1400px;
+  margin: 30px auto;
+  min-height: 700px;
+
 }

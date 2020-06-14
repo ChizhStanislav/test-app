@@ -1,15 +1,20 @@
 import React from 'react';
 import Header from "./components/HeaderBlock/header";
-import Body from "./components/BodyBlock/body";
+import {BrowserRouter} from "react-router-dom";
+import s from './App.module.scss'
 import Footer from "./components/FooterBlock/footer";
+import Body from "./components/BodyBlock/body";
 
-function App() {
+
+function App(props) {
     return (
-        <div>
-            <Header/>
-            <Body/>
-            <Footer/>
-        </div>
+        <BrowserRouter>
+            <div className={s.app}>
+                <Header menu={props.store.getState().links}/>
+                <Body />
+                <Footer />
+            </div>
+        </BrowserRouter>
     );
 }
 

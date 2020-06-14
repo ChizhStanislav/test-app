@@ -1,7 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './app';
-import './index.css'
+import './index.css';
+import store from "./data/state";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+let renderEntireTree = (store) => {
+    ReactDOM.render(<App store={store} />, document.getElementById('root'));
+};
+
+renderEntireTree(store);
+
 

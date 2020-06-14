@@ -1,0 +1,22 @@
+.albumArea {
+  background-color: white;
+  display: inline-block;
+  width: 300px;
+  height: 340px;
+  margin: 10px 22.8px;
+  box-shadow: 8px 8px 15px 3px darkred;
+
+  p {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+
+  }
+}
+
+.albumArea:hover {
+  box-shadow: 8px 8px 15px 3px yellow;
+}
+
+

@@ -1,7 +1,8 @@
 import React from "react";
-import s from './BodyContent.module.scss';
+import s from './HeaderBottom.module.scss';
 
-const BodyContent = () => {
+
+const HeaderBottom = () => {
     return (
         <div className={s.cover}>
 
@@ -9,4 +10,4 @@ const BodyContent = () => {
     );
 };
 
-export default BodyContent;
+export default HeaderBottom;
