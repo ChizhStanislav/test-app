@@ -1,6 +1,14 @@
 .cover {
-  background-color: black;
   width: 100px;
   height: 100px;
   position: fixed;
+
+  img {
+    height: 100%;
+    width: auto;
+  }
+
+  a{
+    text-decoration: none;
+  }
 }

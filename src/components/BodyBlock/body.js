@@ -11,7 +11,7 @@ import PhotoGallery from "./PhotoGallery/photoGallerry";
 const Body = (props) => {
     return (
         <div className={s.cover}>
-            <Route path='/main' render={() => <Main />} />
+            <Route path='/main' render={() => <Main holidays={props.data} />} />
             <Route path='/serviceOfGUKVV' render={() => <ServiceOfGUKVV />} />
             <Route path='/serviceOfMVDRB' render={() => <ServiceOfMVDRB />} />
             <Route path='/photoGallery' render={() => <PhotoGallery />} />

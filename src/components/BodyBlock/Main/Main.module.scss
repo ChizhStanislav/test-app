@@ -1,5 +1,12 @@
 .cover {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-areas: "general news";
+
+  background-color: aquamarine;
+
   width: 1400px;
-  background-color: white;
-  min-height: 700px;
+  min-height: 600px;
 }

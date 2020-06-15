@@ -11,7 +11,7 @@ function App(props) {
         <BrowserRouter>
             <div className={s.app}>
                 <Header menu={props.store.getState().links}/>
-                <Body />
+                <Body data={props.store.getState()}/>
                 <Footer />
             </div>
         </BrowserRouter>
