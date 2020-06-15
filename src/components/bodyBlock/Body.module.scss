@@ -1,0 +1,10 @@
+.cover {
+
+  grid-area: b;
+
+  width: 1400px;
+  margin: 140px auto 30px;
+  //min-height: 700px;
+
+  min-height: calc(85.1vh - 80px);
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import s from './HeaderMiddleBottom.module.scss';
-import BottomMenu from "./Bottoms/bottomMenu";
+import BottomMenu from "./bottoms/bottomMenu";
 
 const HeaderMiddleBottom = (props) => {
 

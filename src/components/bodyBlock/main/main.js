@@ -1,7 +1,7 @@
 import React from "react";
 import s from './Main.module.scss';
-import NewsArea from "./News/newsArea";
-import GeneralArea from "./General/generalArea";
+import NewsArea from "./news/newsArea";
+import GeneralArea from "./general/generalArea";
 
 
 const Main = (props) => {

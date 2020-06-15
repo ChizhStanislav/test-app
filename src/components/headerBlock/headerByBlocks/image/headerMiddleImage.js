@@ -7,7 +7,7 @@ import {NavLink} from "react-router-dom";
 const HeaderMiddleImage = () => {
     return (
         <div className={s.cover}>
-            <NavLink to='/main'><img src={logo}></img></NavLink>
+            <NavLink to='/main'><img src={logo} alt="Main"></img></NavLink>
         </div>
     );
 };

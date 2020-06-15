@@ -1,10 +1,10 @@
 import React from "react";
 import s from './Body.module.scss';
 import {Route} from "react-router-dom";
-import Main from "./Main/main";
-import ServiceOfGUKVV from "./ServiceOfGUKVV/serviceOfGUKVV";
-import ServiceOfMVDRB from "./ServiceOfMVDRB/serviceOfMVDRB";
-import PhotoGallery from "./PhotoGallery/photoGallerry";
+import Main from "./main/main";
+import ServiceOfGUKVV from "./serviceOfGUKVV/serviceOfGUKVV";
+import ServiceOfMVDRB from "./serviceOfMVDRB/serviceOfMVDRB";
+import PhotoGallery from "./photoGallery/photoGallerry";
 
 
 

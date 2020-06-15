@@ -1,6 +1,6 @@
 import React from "react";
 import s from './PhotoGallery.module.scss';
-import AlbumArea from "./Albums/albumArea";
+import AlbumArea from "./albums/albumArea";
 
 
 const PhotoGallery = () => {

@@ -6,7 +6,7 @@
           "b"
           "f";
 
-  grid-template-rows: 100px 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
 
   height: 100%;
 }

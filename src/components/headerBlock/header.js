@@ -1,8 +1,8 @@
 import React from "react";
 import s from './Header.module.scss';
-import HeaderTop from "./HeaderByBlocks/headerTop";
-import HeaderBottom from "./HeaderByBlocks/headerBottom";
-import HeaderMiddle from "./HeaderByBlocks/headerMiddle";
+import HeaderTop from "./headerByBlocks/headerTop";
+import HeaderBottom from "./headerByBlocks/headerBottom";
+import HeaderMiddle from "./headerByBlocks/headerMiddle";
 
 
 const Header = (props) => {
