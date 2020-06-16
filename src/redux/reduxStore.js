@@ -1,5 +1,9 @@
-import {createStore} from "redux";
+import {combineReducers, createStore} from "redux";
 
-let store = createStore();
+let reducers = combineReducers({
+
+});
+
+let store = createStore(reducers);
 
 export default store;
