@@ -1,23 +1,23 @@
 import React from "react";
 import s from './PhotoGallery.module.scss';
-import AlbumArea from "./albums/albumArea";
+import Album from "./albums/album";
 
 
 const PhotoGallery = () => {
     return (
         <div className={s.cover}>
-            <AlbumArea name='Альбом'/>
-            <AlbumArea name='Альбом'/>
-            <AlbumArea name='Альбом'/>
-            <AlbumArea name='Альбом'/>
-            <AlbumArea name='Альбом'/>
-            <AlbumArea name='Альбом'/>
-            <AlbumArea name='Альбом'/>
-            <AlbumArea name='Альбом'/>
-            <AlbumArea name='Альбом'/>
-            <AlbumArea name='Альбом'/>
-            <AlbumArea name='Альбом'/>
-            <AlbumArea name='Альбом'/>
+            <Album name='Альбом'/>
+            <Album name='Альбом'/>
+            <Album name='Альбом'/>
+            <Album name='Альбом'/>
+            <Album name='Альбом'/>
+            <Album name='Альбом'/>
+            <Album name='Альбом'/>
+            <Album name='Альбом'/>
+            <Album name='Альбом'/>
+            <Album name='Альбом'/>
+            <Album name='Альбом'/>
+            <Album name='Альбом'/>
         </div>
 
     );

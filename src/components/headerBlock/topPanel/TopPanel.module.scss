@@ -1,0 +1,60 @@
+.cover {
+  width: 1300px;
+  height: 45px;
+  margin-left: 100px;
+  margin-top: 55px;
+  position: fixed;
+
+  .dropRef {
+    padding: 13.4px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .dropRef a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    float: left;
+  }
+
+  .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: darkred;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdownContent a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+  }
+
+  .dropdownContent a:hover {
+    color: yellow;
+  }
+
+  .dropdown:hover .dropdownContent {
+    display: block;
+  }
+
+  .dropdown:hover .dropRef {
+    background-color: darkred;
+    border-bottom: 2px solid yellow;
+
+    a {
+      color: white;
+    }
+  }
+}

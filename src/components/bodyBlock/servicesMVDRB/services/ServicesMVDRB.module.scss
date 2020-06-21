@@ -1,0 +1,61 @@
+.cover1 {
+  .cover {
+
+    display: inline-block;
+    margin: 15px;
+
+    background-color: white;
+    border-top: 3px solid yellow;
+    height: 150px;
+    width: 300px;
+
+
+    .areaServiceOfMVDRB {
+      display: grid;
+
+      grid-template-areas: "image text";
+
+      grid-template-columns: 80px 1fr;
+      grid-column-gap: 10px;
+      margin: 20px 20px;
+      height: 110px;
+      width: 260px;
+
+      .image {
+
+        grid-area: image;
+
+        width: 80px;
+        height: 80px;
+        margin: 15px auto;
+
+        img {
+          height: 100%;
+          width: auto;
+        }
+      }
+
+      .text {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        grid-area: text;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+
+        a {
+          text-decoration: none;
+          color: black;
+
+        }
+      }
+    }
+  }
+
+  .cover:hover {
+    background-color: #f0f0f0;
+  }
+}

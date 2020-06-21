@@ -7,4 +7,63 @@
   text-align: center;
   position: fixed;
 
+  .top {
+    background-color: darkred;
+    width: 100%;
+    height: 55px;
+    position: fixed;
+  }
+
+  .bottom {
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    margin-top: 55px;
+  }
+
+  .middle {
+    width: 1400px;
+    height: 100px;
+    position: fixed;
+    margin: auto;
+    left:0;
+    right:0;
+
+    .title {
+      width: 1300px;
+      height: 55px;
+      margin-left: 100px;
+      position: fixed;
+
+      h2{
+        color: white;
+        margin: 0;
+        padding: 0;
+      }
+
+      h3{
+        color: white;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    .image {
+      width: 100px;
+      height: 100px;
+      position: fixed;
+
+      img {
+        height: 100%;
+        width: auto;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+
+  }
 }

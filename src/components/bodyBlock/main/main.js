@@ -1,14 +1,14 @@
 import React from "react";
 import s from './Main.module.scss';
-import NewsArea from "./news/newsArea";
+import NewsContainer from "./news/newsContainer";
 import GeneralArea from "./general/generalArea";
 
 
-const Main = (props) => {
+const Main = () => {
     return (
         <div className={s.cover}>
             <GeneralArea />
-            <NewsArea holidays={props.holidays}/>
+            <NewsContainer />
         </div>
     );
 };

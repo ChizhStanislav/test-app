@@ -6,11 +6,11 @@ const NewsModule = (props) => {
 
     let listHoliday = props.data.map(holiday => {
         if (holiday.position === '') {
-            return <p>{holiday.holiday}</p>
+            return <p>{holiday.fullName}</p>
         } else {
             return (
                 <>
-                    <p>{holiday.holiday}</p>
+                    <p>{holiday.fullName}</p>
                     <p>{holiday.position}</p>
                 </>
             );

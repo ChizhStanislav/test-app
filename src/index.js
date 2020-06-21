@@ -2,12 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './app';
 import './index.css';
-import store from "./data/state";
+import {BrowserRouter} from "react-router-dom";
+import {Provider} from "react-redux";
+import store from "./redux/reduxStore";
 
-let renderEntireTree = (store) => {
-    ReactDOM.render(<App store={store} />, document.getElementById('root'));
-};
 
-renderEntireTree(store);
+ReactDOM.render(
+    <BrowserRouter>
+        <Provider store={store}>
+            <App/>
+        </Provider>
+    </BrowserRouter>, document.getElementById('root'));
+
+
+
+
 
 
